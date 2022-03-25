@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="21C52" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Associations" representedClassName="Associations" syncable="YES">
+        <attribute name="associations" optional="YES" attributeType="String"/>
+        <relationship name="word" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Word" inverseName="association" inverseEntity="Word"/>
+    </entity>
+    <entity name="Word" representedClassName="Word" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="association" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Associations" inverseName="word" inverseEntity="Associations"/>
+    </entity>
+    <elements>
+        <element name="Word" positionX="627.0078125" positionY="-626.296875" width="128" height="73"/>
+        <element name="Associations" positionX="1095.328125" positionY="-286.41796875" width="128" height="73"/>
+    </elements>
+</model>
