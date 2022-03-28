@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="21C52" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Ass" representedClassName="Ass" syncable="YES">
+        <attribute name="assName" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Word" representedClassName="Word" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="asss" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Ass"/>
+    </entity>
+    <elements>
+        <element name="Word" positionX="-27" positionY="18" width="128" height="59"/>
+        <element name="Ass" positionX="18" positionY="63" width="128" height="44"/>
+    </elements>
+</model>

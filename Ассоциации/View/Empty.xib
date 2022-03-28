@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="n3M-Lb-qwg" customClass="DayGoalCountView" customModule="Ассоциации" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="350"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uCf-hW-re5" customClass="DayGoal">
+                    <rect key="frame" x="0.0" y="94" width="400" height="162"/>
+                </pickerView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="TKp-iY-BY4"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="uCf-hW-re5" firstAttribute="leading" secondItem="TKp-iY-BY4" secondAttribute="leading" id="Bql-FV-PiA"/>
+                <constraint firstItem="TKp-iY-BY4" firstAttribute="bottom" secondItem="uCf-hW-re5" secondAttribute="bottom" constant="94" id="VJA-Xj-aoq"/>
+                <constraint firstItem="uCf-hW-re5" firstAttribute="trailing" secondItem="TKp-iY-BY4" secondAttribute="trailing" id="VO2-HP-iOW"/>
+                <constraint firstItem="uCf-hW-re5" firstAttribute="top" secondItem="TKp-iY-BY4" secondAttribute="top" constant="50" id="iXK-Bd-32b"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="207.24637681159422" y="131.25"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
