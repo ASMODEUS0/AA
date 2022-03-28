@@ -7,25 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F25DB97527C1B09300B7D2B8 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25DB97427C1B09300B7D2B8 /* CoreDataStack.swift */; };
+		F25DB97827C1B38A00B7D2B8 /* Associations.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F25DB97627C1B38A00B7D2B8 /* Associations.xcdatamodeld */; };
+		F25DB98227C1B5A400B7D2B8 /* PlayInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25DB98127C1B5A400B7D2B8 /* PlayInteractor.swift */; };
+		F25DB98427C1B6A600B7D2B8 /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25DB98327C1B6A600B7D2B8 /* CoreDataService.swift */; };
+		F25DB98727C1D8FF00B7D2B8 /* AssModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F25DB98527C1D8FF00B7D2B8 /* AssModel.xcdatamodeld */; };
+		F25DB98C27C1DA8B00B7D2B8 /* Word+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25DB98827C1DA8B00B7D2B8 /* Word+CoreDataClass.swift */; };
+		F25DB98D27C1DA8B00B7D2B8 /* Word+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25DB98927C1DA8B00B7D2B8 /* Word+CoreDataProperties.swift */; };
+		F25DB98E27C1DA8B00B7D2B8 /* Ass+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25DB98A27C1DA8B00B7D2B8 /* Ass+CoreDataClass.swift */; };
+		F25DB98F27C1DA8B00B7D2B8 /* Ass+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25DB98B27C1DA8B00B7D2B8 /* Ass+CoreDataProperties.swift */; };
+		F25DB9BF27C288AC00B7D2B8 /* LoadWordsForGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25DB9BE27C288AC00B7D2B8 /* LoadWordsForGame.swift */; };
+		F265379327BBDC530018DF53 /* playTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F265379227BBDC530018DF53 /* playTableView.xib */; };
+		F265437A27B804730086E9CF /* DayGoal.xib in Resources */ = {isa = PBXBuildFile; fileRef = F265437927B804730086E9CF /* DayGoal.xib */; };
+		F2E3711227B3B6E1002DB8EA /* RecentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E3711127B3B6E1002DB8EA /* RecentCell.swift */; };
+		F2E3711527B500BD002DB8EA /* RootMoudleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E3711427B500BD002DB8EA /* RootMoudleProtocol.swift */; };
+		F2E3711727B500D3002DB8EA /* RootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E3711627B500D3002DB8EA /* RootVC.swift */; };
+		F2E3711927B50116002DB8EA /* RootPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E3711827B50116002DB8EA /* RootPresenter.swift */; };
+		F2E3711B27B50120002DB8EA /* RootInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E3711A27B50120002DB8EA /* RootInteractor.swift */; };
+		F2E3711D27B50179002DB8EA /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E3711C27B50179002DB8EA /* RootRouter.swift */; };
+		F2E3711F27B501E4002DB8EA /* RootConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E3711E27B501E4002DB8EA /* RootConfigure.swift */; };
+		F2E3712127B52014002DB8EA /* r.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E3712027B52014002DB8EA /* r.swift */; };
+		F2E835D827B15E73002CDDBF /* PlayProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E835D727B15E73002CDDBF /* PlayProtocols.swift */; };
+		F2E835DD27B15EF3002CDDBF /* PlayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E835DC27B15EF3002CDDBF /* PlayVC.swift */; };
+		F2E835DF27B15F37002CDDBF /* PlayConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E835DE27B15F37002CDDBF /* PlayConfigurator.swift */; };
+		F2E835E127B16041002CDDBF /* PlayPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E835E027B16041002CDDBF /* PlayPresenter.swift */; };
 		F2F6852927A58E8F0017F541 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F6852827A58E8F0017F541 /* AppDelegate.swift */; };
 		F2F6852B27A58E8F0017F541 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F6852A27A58E8F0017F541 /* SceneDelegate.swift */; };
-		F2F6852D27A58E8F0017F541 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F6852C27A58E8F0017F541 /* ViewController.swift */; };
 		F2F6853027A58E8F0017F541 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2F6852E27A58E8F0017F541 /* Main.storyboard */; };
 		F2F6853327A58E8F0017F541 /* __________.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2F6853127A58E8F0017F541 /* __________.xcdatamodeld */; };
 		F2F6853527A58E910017F541 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2F6853427A58E910017F541 /* Assets.xcassets */; };
 		F2F6853827A58E910017F541 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2F6853627A58E910017F541 /* LaunchScreen.storyboard */; };
+		F2FEFD1B27BA53A900F208F3 /* DayGoalCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FEFD1A27BA53A900F208F3 /* DayGoalCountView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F25DB97427C1B09300B7D2B8 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		F25DB97727C1B38A00B7D2B8 /* Associations.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Associations.xcdatamodel; sourceTree = "<group>"; };
+		F25DB98127C1B5A400B7D2B8 /* PlayInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayInteractor.swift; sourceTree = "<group>"; };
+		F25DB98327C1B6A600B7D2B8 /* CoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
+		F25DB98627C1D8FF00B7D2B8 /* AssModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AssModel.xcdatamodel; sourceTree = "<group>"; };
+		F25DB98827C1DA8B00B7D2B8 /* Word+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Word+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F25DB98927C1DA8B00B7D2B8 /* Word+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Word+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F25DB98A27C1DA8B00B7D2B8 /* Ass+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ass+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F25DB98B27C1DA8B00B7D2B8 /* Ass+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ass+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F25DB9BE27C288AC00B7D2B8 /* LoadWordsForGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadWordsForGame.swift; sourceTree = "<group>"; };
+		F265379227BBDC530018DF53 /* playTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = playTableView.xib; sourceTree = "<group>"; };
+		F265437927B804730086E9CF /* DayGoal.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DayGoal.xib; sourceTree = "<group>"; };
+		F2E3711127B3B6E1002DB8EA /* RecentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentCell.swift; sourceTree = "<group>"; };
+		F2E3711427B500BD002DB8EA /* RootMoudleProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootMoudleProtocol.swift; sourceTree = "<group>"; };
+		F2E3711627B500D3002DB8EA /* RootVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootVC.swift; sourceTree = "<group>"; };
+		F2E3711827B50116002DB8EA /* RootPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootPresenter.swift; sourceTree = "<group>"; };
+		F2E3711A27B50120002DB8EA /* RootInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootInteractor.swift; sourceTree = "<group>"; };
+		F2E3711C27B50179002DB8EA /* RootRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
+		F2E3711E27B501E4002DB8EA /* RootConfigure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootConfigure.swift; sourceTree = "<group>"; };
+		F2E3712027B52014002DB8EA /* r.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = r.swift; sourceTree = "<group>"; };
+		F2E835D727B15E73002CDDBF /* PlayProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayProtocols.swift; sourceTree = "<group>"; };
+		F2E835DC27B15EF3002CDDBF /* PlayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayVC.swift; sourceTree = "<group>"; };
+		F2E835DE27B15F37002CDDBF /* PlayConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayConfigurator.swift; sourceTree = "<group>"; };
+		F2E835E027B16041002CDDBF /* PlayPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayPresenter.swift; sourceTree = "<group>"; };
 		F2F6852527A58E8F0017F541 /* Ассоциации.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ассоциации.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2F6852827A58E8F0017F541 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2F6852A27A58E8F0017F541 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F2F6852C27A58E8F0017F541 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F2F6852F27A58E8F0017F541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2F6853227A58E8F0017F541 /* __________.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "__________.xcdatamodel"; sourceTree = "<group>"; };
 		F2F6853427A58E910017F541 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2F6853727A58E910017F541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2F6853927A58E910017F541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2FEFD1A27BA53A900F208F3 /* DayGoalCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayGoalCountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,9 +87,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F25DB97327C1B07B00B7D2B8 /* CoreDataService */ = {
+			isa = PBXGroup;
+			children = (
+				F25DB97427C1B09300B7D2B8 /* CoreDataStack.swift */,
+				F25DB98327C1B6A600B7D2B8 /* CoreDataService.swift */,
+			);
+			path = CoreDataService;
+			sourceTree = "<group>";
+		};
+		F25DB9BD27C2887A00B7D2B8 /* InternetModule */ = {
+			isa = PBXGroup;
+			children = (
+				F25DB9BE27C288AC00B7D2B8 /* LoadWordsForGame.swift */,
+			);
+			path = InternetModule;
+			sourceTree = "<group>";
+		};
+		F2E3711027B3B6C6002DB8EA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F2E3711127B3B6E1002DB8EA /* RecentCell.swift */,
+				F265437927B804730086E9CF /* DayGoal.xib */,
+				F2FEFD1A27BA53A900F208F3 /* DayGoalCountView.swift */,
+				F265379227BBDC530018DF53 /* playTableView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2E3711327B50088002DB8EA /* RootModule */ = {
+			isa = PBXGroup;
+			children = (
+				F2E3711427B500BD002DB8EA /* RootMoudleProtocol.swift */,
+				F2E3711627B500D3002DB8EA /* RootVC.swift */,
+				F2E3711827B50116002DB8EA /* RootPresenter.swift */,
+				F2E3711A27B50120002DB8EA /* RootInteractor.swift */,
+				F2E3711C27B50179002DB8EA /* RootRouter.swift */,
+				F2E3711E27B501E4002DB8EA /* RootConfigure.swift */,
+				F2E3712027B52014002DB8EA /* r.swift */,
+			);
+			path = RootModule;
+			sourceTree = "<group>";
+		};
+		F2E835D627B15E61002CDDBF /* PlayModule */ = {
+			isa = PBXGroup;
+			children = (
+				F2E835DC27B15EF3002CDDBF /* PlayVC.swift */,
+				F2E835DE27B15F37002CDDBF /* PlayConfigurator.swift */,
+				F2E835D727B15E73002CDDBF /* PlayProtocols.swift */,
+				F2E835E027B16041002CDDBF /* PlayPresenter.swift */,
+				F25DB98127C1B5A400B7D2B8 /* PlayInteractor.swift */,
+			);
+			path = PlayModule;
+			sourceTree = "<group>";
+		};
 		F2F6851C27A58E8F0017F541 = {
 			isa = PBXGroup;
 			children = (
+				F25DB98827C1DA8B00B7D2B8 /* Word+CoreDataClass.swift */,
+				F25DB98927C1DA8B00B7D2B8 /* Word+CoreDataProperties.swift */,
+				F25DB98A27C1DA8B00B7D2B8 /* Ass+CoreDataClass.swift */,
+				F25DB98B27C1DA8B00B7D2B8 /* Ass+CoreDataProperties.swift */,
 				F2F6852727A58E8F0017F541 /* Ассоциации */,
 				F2F6852627A58E8F0017F541 /* Products */,
 			);
@@ -58,14 +164,20 @@
 		F2F6852727A58E8F0017F541 /* Ассоциации */ = {
 			isa = PBXGroup;
 			children = (
+				F25DB9BD27C2887A00B7D2B8 /* InternetModule */,
+				F25DB97327C1B07B00B7D2B8 /* CoreDataService */,
+				F2E3711027B3B6C6002DB8EA /* View */,
+				F2E3711327B50088002DB8EA /* RootModule */,
+				F2E835D627B15E61002CDDBF /* PlayModule */,
 				F2F6852827A58E8F0017F541 /* AppDelegate.swift */,
 				F2F6852A27A58E8F0017F541 /* SceneDelegate.swift */,
-				F2F6852C27A58E8F0017F541 /* ViewController.swift */,
 				F2F6852E27A58E8F0017F541 /* Main.storyboard */,
 				F2F6853427A58E910017F541 /* Assets.xcassets */,
 				F2F6853627A58E910017F541 /* LaunchScreen.storyboard */,
 				F2F6853927A58E910017F541 /* Info.plist */,
 				F2F6853127A58E8F0017F541 /* __________.xcdatamodeld */,
+				F25DB97627C1B38A00B7D2B8 /* Associations.xcdatamodeld */,
+				F25DB98527C1D8FF00B7D2B8 /* AssModel.xcdatamodeld */,
 			);
 			path = "Ассоциации";
 			sourceTree = "<group>";
@@ -130,7 +242,9 @@
 			files = (
 				F2F6853827A58E910017F541 /* LaunchScreen.storyboard in Resources */,
 				F2F6853527A58E910017F541 /* Assets.xcassets in Resources */,
+				F265379327BBDC530018DF53 /* playTableView.xib in Resources */,
 				F2F6853027A58E8F0017F541 /* Main.storyboard in Resources */,
+				F265437A27B804730086E9CF /* DayGoal.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +255,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2F6852D27A58E8F0017F541 /* ViewController.swift in Sources */,
+				F25DB98227C1B5A400B7D2B8 /* PlayInteractor.swift in Sources */,
+				F2E3712127B52014002DB8EA /* r.swift in Sources */,
+				F2E835DD27B15EF3002CDDBF /* PlayVC.swift in Sources */,
 				F2F6853327A58E8F0017F541 /* __________.xcdatamodeld in Sources */,
+				F25DB98427C1B6A600B7D2B8 /* CoreDataService.swift in Sources */,
+				F25DB97827C1B38A00B7D2B8 /* Associations.xcdatamodeld in Sources */,
+				F25DB98C27C1DA8B00B7D2B8 /* Word+CoreDataClass.swift in Sources */,
 				F2F6852927A58E8F0017F541 /* AppDelegate.swift in Sources */,
+				F2E3711D27B50179002DB8EA /* RootRouter.swift in Sources */,
+				F2E3711527B500BD002DB8EA /* RootMoudleProtocol.swift in Sources */,
+				F25DB98D27C1DA8B00B7D2B8 /* Word+CoreDataProperties.swift in Sources */,
+				F2FEFD1B27BA53A900F208F3 /* DayGoalCountView.swift in Sources */,
+				F25DB98E27C1DA8B00B7D2B8 /* Ass+CoreDataClass.swift in Sources */,
+				F2E835DF27B15F37002CDDBF /* PlayConfigurator.swift in Sources */,
+				F2E3711B27B50120002DB8EA /* RootInteractor.swift in Sources */,
+				F2E3711727B500D3002DB8EA /* RootVC.swift in Sources */,
+				F2E3711927B50116002DB8EA /* RootPresenter.swift in Sources */,
+				F25DB98727C1D8FF00B7D2B8 /* AssModel.xcdatamodeld in Sources */,
+				F2E835E127B16041002CDDBF /* PlayPresenter.swift in Sources */,
+				F25DB97527C1B09300B7D2B8 /* CoreDataStack.swift in Sources */,
+				F2E835D827B15E73002CDDBF /* PlayProtocols.swift in Sources */,
+				F2E3711227B3B6E1002DB8EA /* RecentCell.swift in Sources */,
+				F2E3711F27B501E4002DB8EA /* RootConfigure.swift in Sources */,
 				F2F6852B27A58E8F0017F541 /* SceneDelegate.swift in Sources */,
+				F25DB98F27C1DA8B00B7D2B8 /* Ass+CoreDataProperties.swift in Sources */,
+				F25DB9BF27C288AC00B7D2B8 /* LoadWordsForGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,6 +500,26 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
+		F25DB97627C1B38A00B7D2B8 /* Associations.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F25DB97727C1B38A00B7D2B8 /* Associations.xcdatamodel */,
+			);
+			currentVersion = F25DB97727C1B38A00B7D2B8 /* Associations.xcdatamodel */;
+			path = Associations.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		F25DB98527C1D8FF00B7D2B8 /* AssModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F25DB98627C1D8FF00B7D2B8 /* AssModel.xcdatamodel */,
+			);
+			currentVersion = F25DB98627C1D8FF00B7D2B8 /* AssModel.xcdatamodel */;
+			path = AssModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		F2F6853127A58E8F0017F541 /* __________.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
